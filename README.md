@@ -13,5 +13,5 @@ streamlit run dashboard.py
 ## Cluster Analisis
 metode ini digunakan untuk mencari insight dari penyebab kenaikan dan penurunan revenue/pendapatan seller.
 ### Pengujian yang dilakukan:
-#### 1. 
+#### 1. Mengidentifikasi hubungan antara revenue dan order count
 
