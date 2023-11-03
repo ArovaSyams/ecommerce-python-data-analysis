@@ -68,7 +68,7 @@ def create_cluster_byseller_df(df):
     return cluster_byseller_df
 
 # read all csv
-all_df = pd.read_csv("all_df.csv")
+all_df = pd.read_csv("dashboard/all_df.csv")
 
 # change datetime column to datetime format
 datetime_columns = [
