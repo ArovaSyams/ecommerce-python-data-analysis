@@ -1,4 +1,6 @@
-# Stackware E-Commerce Dashboard
+# Stackware E-commerce Data Analysis
+
+## Stackware E-Commerce Dashboard
 ## Setup Environment
 ```
 pipenv install 
