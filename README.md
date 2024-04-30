@@ -31,28 +31,27 @@ Moreover, the increase or decrease in order count is not affected by the rating 
 
 ## Stackware E-Commerce Dashboard
 I also make the website-based dashboard powered by Streamlit to summarize all the analysis result on visualization and make stakeholder to do desirable range of date on data.
-# Setup Environment
+### Setup Environment
 ```
 pipenv install 
 pipenv shell
 pipenv install numpy pandas matplotlib seaborn streamlit babel
 ```
 
-# Run Streamlit
+### Run Streamlit
 ```
 streamlit run dashboard.py
 ```
-# Link Streamlit Cloud
+### Link Streamlit Cloud
 https://ecommerce-python-data-analysis.streamlit.app/
 
 ![dashboard e-commerce](image.png)
 
-# Cluster Analisis
-metode ini digunakan untuk mencari insight dari penyebab kenaikan dan penurunan revenue/pendapatan seller.
+### Cluster Analisis
+This method is used to seek insights into the causes of increases and decreases in seller revenue.
 
-Seller revenue dengan cluster analisis yang dilakukan per seller dan per bulan dengan masing masing 3 hubungan identifikasi sebagai berikut:
-1. Mengidentifikasi hubungan antara seller revenue dan order count
-2. Mengidentifikasi hubungan antara order count dan order review
-3. Mengidentifikasi hubungan antara seller revenue dan order review
-
+Seller revenue is analyzed using cluster analysis conducted per seller and per month, with the following three identified relationships:
+1. Identifying the relationship between seller revenue and order count.
+2. Identifying the relationship between order count and order review.
+3. Identifying the relationship between seller revenue and order review.
 
